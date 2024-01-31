@@ -1,10 +1,9 @@
-import Check from "./components/Check";
+import Check from "./components/check";
 
 function App() {
   return (
   <>
   
-  <Check />
   </>
   );
 }
