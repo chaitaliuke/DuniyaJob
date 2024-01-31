@@ -1,8 +1,10 @@
+import Check from "./components/Check";
 
 function App() {
   return (
   <>
   
+  <Check />
   </>
   );
 }
