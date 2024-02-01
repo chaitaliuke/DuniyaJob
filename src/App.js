@@ -10,6 +10,7 @@ import EmployerSignup from "./pages/_auth/forms/EmployerSignup";
 import EmployerLogin from "./pages/_auth/forms/EmployerLogin";
 import LandingPage from "./pages/_auth/forms/LandingPage";
 import Home from "./pages/_root/innerpages/Home";
+import './index.css';
 
 
 
