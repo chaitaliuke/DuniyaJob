@@ -40,17 +40,20 @@ export const preLoaderAnim = () => {
       duration: 0.05,
       css: { overflowY: "hidden", height: "unset" },
     })
+
     .to("body", {
       duration: 0.1,
       css: { overflowY: "scroll" },
       ease: "power3.inOut",
     })
+
     .from(".landing__top .sub", {
       duration: 1,
       opacity: 0,
       y: 80,
       ease: "expo.easeOut",
     })
+    
     .to(
       ".preloader",
       {

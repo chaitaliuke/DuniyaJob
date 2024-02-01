@@ -10,6 +10,7 @@ import EmployerSignup from "./pages/_auth/forms/EmployerSignup";
 import EmployerLogin from "./pages/_auth/forms/EmployerLogin";
 import LandingPage from "./pages/_auth/forms/LandingPage";
 import Home from "./pages/_root/innerpages/Home";
+import LoaderPage from "./pages/_auth/forms/LoaderPage";
 
 
 
@@ -22,6 +23,7 @@ function App() {
 
         {/* <Route path="/Employee sign-up" element={<EmployeeSignup />} /> */}
         <Route path="/Duniya" element={<LandingPage />} />
+        <Route path="/Loading" element={<LoaderPage />} />
 
       {/* Employee ........... */}
         <Route path="/Employee-sign-up" element={<EmployeeSignup />} />

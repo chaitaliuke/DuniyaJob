@@ -1,14 +1,12 @@
-import React, { useEffect } from 'react'
-import { preLoaderAnim } from '../animations';
+import React from 'react'
+
 
 const PreLoader = () => {
  
-  useEffect(()=>{
-      preLoaderAnim()
-  },[]);  
+  
   return (
     
-        <div className=' text-white text-center h-screen justify-center 
+        <div className='  text-white text-center h-screen justify-center 
                           items-center flex flex-row space-x-6 text-5xl 
                           font-semibold font-mono letter-spacing: 0.025em z-50 overflow-hidden'>
           <span>Find </span>
