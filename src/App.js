@@ -1,11 +1,13 @@
-import Check from "./components/check";
+import logo from './logo.svg';
+import './App.css';
+import LoaderPage from './pages/LoaderPage';
 
 function App() {
   return (
-  <>
-  hello
-  
-  </>
+
+    <>
+      <LoaderPage/>
+    </>
   );
 }
 
