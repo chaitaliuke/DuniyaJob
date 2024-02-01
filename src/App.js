@@ -4,6 +4,7 @@ import LoaderPage from './pages/LoaderPage';
 
 function App() {
   return (
+
     <>
       <LoaderPage/>
     </>
