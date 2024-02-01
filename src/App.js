@@ -1,3 +1,4 @@
+// <<<<<<< HEAD
 // import Check from "./components/check";
 
 import { Route, Routes } from "react-router-dom";
@@ -9,6 +10,8 @@ import EmployerSignup from "./pages/_auth/forms/EmployerSignup";
 import EmployerLogin from "./pages/_auth/forms/EmployerLogin";
 import LandingPage from "./pages/_auth/forms/LandingPage";
 import Home from "./pages/_root/innerpages/Home";
+
+
 
 function App() {
   return (
@@ -52,6 +55,8 @@ function App() {
 
 
   </main>
+
+// >>>>>>> 39dcba460153505831c5c3cb5a25c1ee308748e0
   );
 }
 

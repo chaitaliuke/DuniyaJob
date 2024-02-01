@@ -1,9 +1,16 @@
 import React from 'react'
+import PreLoader from '../components/PreLoader'
 
-const LoadingPage = () => {
+const LoaderPage = () => {
   return (
-    <div>LoadingPage</div>
+
+    <>
+    <div className=' bg-black h-[100vh] '>
+      <PreLoader/>  
+    </div>
+    </>
+    
   )
 }
 
-export default LoadingPage
+export default LoaderPage
