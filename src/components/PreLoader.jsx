@@ -1,8 +1,6 @@
 import React from 'react'
 
-
-const PreLoader = () => {
- 
+const PreLoader = () => { 
   
   return (
     
