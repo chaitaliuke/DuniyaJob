@@ -11,18 +11,20 @@ import EmployerLogin from "./pages/_auth/forms/EmployerLogin";
 import LandingPage from "./pages/_auth/forms/LandingPage";
 import Home from "./pages/_root/innerpages/Home";
 import './index.css';
+import LoaderPage from "./pages/_auth/forms/LoaderPage";
 
 
 
 function App() {
   return (
-    <main className="flex flex-1 h-screen">
+    <main className="flex bg-gray-700 flex-1 h-screen">
     <Routes>
       {/* public routes */}
       <Route element={<AuthLayout />}>
 
         {/* <Route path="/Employee sign-up" element={<EmployeeSignup />} /> */}
         <Route path="/Duniya" element={<LandingPage />} />
+        <Route path="/Loading" element={<LoaderPage />} />
 
       {/* Employee ........... */}
         <Route path="/Employee-sign-up" element={<EmployeeSignup />} />

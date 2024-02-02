@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react'
-import { preLoaderAnim } from '../animations';
+import { preLoaderAnim } from '../animations/index';
 
 const PreLoader = () => {
  
   useEffect(()=>{
-      preLoaderAnim()
+      preLoaderAnim();
   },[]);  
   return (
     

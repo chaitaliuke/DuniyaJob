@@ -1,5 +1,6 @@
 import React from 'react'
-import PreLoader from '../components/PreLoader'
+import PreLoader from '../../../components/PreLoader'
+// import PreLoader from '../components/PreLoader'
 
 const LoaderPage = () => {
   return (
