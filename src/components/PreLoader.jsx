@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { preLoaderAnim } from '../animations/'
-import logo from '../../src/assets/dj-white.png'
+// import logo from '../../src/assets/dj-white.png'
 import "./preloader.css"
 
 const PreLoader = () => {
