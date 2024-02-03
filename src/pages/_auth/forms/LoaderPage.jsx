@@ -22,4 +22,4 @@ const LoaderPage = () => {
   );
 };
 
-export default LoaderPage;
+export default LoaderPage
