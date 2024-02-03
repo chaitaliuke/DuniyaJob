@@ -12,6 +12,7 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    font-style: italic;
 
 }
 
@@ -19,11 +20,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 60px;
-    width: 280px;
-    font-size: 20px;
+    height: 70px;
+    width: 650px;
+    font-size: 40px;
     font-weight: 800;
     overflow: hidden;
-    color: lightskyblue;
+    color: #A4EAFF;
+    font-style: italic;
 
 }
