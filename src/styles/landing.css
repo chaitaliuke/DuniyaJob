@@ -10,9 +10,7 @@
     font-weight: bold;
     margin-bottom: 20px;
   }
-  span {
-    /* color: #f7cc53; */
-  }
+  
   .button {
     text-align: center;
     display: flex;

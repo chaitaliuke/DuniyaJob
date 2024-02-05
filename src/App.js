@@ -1,6 +1,7 @@
 // <<<<<<< HEAD
 // import Check from "./components/check";
 
+
 import { Route, Routes } from "react-router-dom";
 import AuthLayout from "./pages/_auth/AuthLayout";
 import RootLayout from "./pages/_root/RootLayout";
@@ -13,7 +14,6 @@ import Home from "./pages/_root/innerpages/Home";
 import './index.css';
 import LoaderPage from "./pages/_auth/forms/LoaderPage";
 
-
 function App() {
   return (
     <main className="flex bg-gray-700 flex-1 h-screen">
@@ -23,7 +23,7 @@ function App() {
 
         {/* <Route path="/Employee sign-up" element={<EmployeeSignup />} /> */}
         <Route  path="/Duniya" element={<LandingPage />} />
-        <Route index path="/Loading" element={<LoaderPage />} />
+        <Route index path="/" element={<LoaderPage />} />
 
       {/* Employee ........... */}
         <Route path="/Employee-sign-up" element={<EmployeeSignup />} />
@@ -52,9 +52,6 @@ function App() {
 
       </Route>
     </Routes>
-
-    {/* <Toaster /> */}
-
 
   </main>
 
