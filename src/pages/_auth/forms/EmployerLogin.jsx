@@ -1,23 +1,28 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 /* eslint-disable jsx-a11y/anchor-is-valid */
+import { Typography } from '@mui/material';
 import React from 'react'
+// import Typography from 'typography';
 
 const EmployerLogin = () => {
   return(
-    <section className="h-screen flex flex-col md:flex-row justify-center space-y-10 md:space-y-0 md:space-x-16 items-center my-2 mx-5 md:mx-0 md:my-0">
+    <section className=" border-2 p-6 bg-black  rounded-lg flex flex-col md:flex-row justify-center space-y-10 md:space-y-0 md:space-x-16 items-center my-2 mx-5 md:mx-0 md:my-0 text-white " > 
+    {/* <div className='flex ml-10 '>Employer Login</div> */}
+    
     <div className="md:w-1/3 max-w-sm">
       <img
         src="https://tecdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
         alt="Sample img" />
+        <Typography className=' text-center p-8'>Employer Login</Typography>
     </div>
-    <div className="md:w-1/3 max-w-sm">
+    <div className="md:w-1/3 max-w-sm border-2 p-5 rounded-lg bg-white shadow-md ">
       <div className="text-center md:text-left">
-        <label className="mr-1">Sign in with</label>
+        <label className="mr-1 text-black">Sign in with</label>
         <button
           type="button"
           className="mx-1 h-9 w-9 rounded-full bg-blue-600 hover:bg-blue-700 text-white shadow-[0_4px_9px_-4px_#3b71ca]">
           <svg
-            xmlns="http://www.w3.org/2000/svg"
+          
             className="mx-auto h-3.5 w-3.5"
             fill="currentColor"
             viewBox="0 0 24 24">
@@ -27,9 +32,8 @@ const EmployerLogin = () => {
         </button>
         <button
           type="button"
-          className="inlne-block mx-1 h-9 w-9 rounded-full bg-blue-600 hover:bg-blue-700 uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca]">
+          className="inlne-block mx-1 h-9 w-9 rounded-full bg-blue-600 hover:bg-blue-700 uppercase leading-normal text-white  shadow-[0_4px_9px_-4px_#3b71ca]">
           <svg
-            xmlns="http://www.w3.org/2000/svg"
             className="mx-auto h-3.5 w-3.5"
             fill="currentColor"
             viewBox="0 0 24 24">

@@ -6,7 +6,8 @@ import { Link } from "react-router-dom";
 
 const LandingPage = () => {
   return (
-    <section className=" w-screen h-screen overflow-y-scroll no-scrollbar">
+    <>
+    <section className=" w-screen overflow-y-scroll no-scrollbar">
       <div className="sticky">
         <Navbar />
       </div>
@@ -23,13 +24,17 @@ const LandingPage = () => {
             <p>Got fired..!! Get Ready to be hired</p>
           </div>
         </div>
-        <div className="button" data-testid="btn">
-          <Link to="/Jobs">Browse Jobs</Link>
-        </div>
+        
       </div>
+      
 
       </div>
     </section>
+    <div className="button " data-testid="btn">
+          <Link to="/Jobs">Browse Jobs</Link>
+        </div>
+
+        </>
   );
 };
 
