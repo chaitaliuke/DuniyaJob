@@ -11,7 +11,7 @@ const PreLoader = () => {
     return ( 
     <>
         <div className="preloader">
-            <div className='texts-container'>
+            <div className=' sm:text-xs texts-container '>
                 <span > Find  </span> 
                 <span > the  </span> 
                 <span > perfect  </span> 
@@ -21,9 +21,7 @@ const PreLoader = () => {
             </div>
         </div> 
 
-        <div>
-
-        </div>
+        
     </>
     )
 }
