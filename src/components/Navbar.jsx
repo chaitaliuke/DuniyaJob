@@ -164,7 +164,7 @@ export default function Navbar() {
             <MenuIcon />
           </IconButton>
           <Typography
-            variant="h6"
+            variant="h8"
             noWrap
             component="div"
             // sx={{ display: { xs: "none", sm: "block" } }}
@@ -242,7 +242,7 @@ export default function Navbar() {
               sx={{p:'5px', border:'solid', borderRadius:3,backgroundColor:'rgba(0,0,0,0.5)', }} 
             >
                 {/* <MailIcon /> */}
-                <Typography>For Employer</Typography>
+                <Typography>Employer</Typography>
               
             </IconButton>
             
@@ -252,7 +252,7 @@ export default function Navbar() {
               sx={{p:'5px', border:'solid', borderRadius:3,backgroundColor:'rgba(0,0,0,0.5)'}}
             >
                 {/* <MailIcon /> */}
-                <Typography>For Employee</Typography>
+                <Typography>Employee</Typography>
               
             </IconButton>
 
