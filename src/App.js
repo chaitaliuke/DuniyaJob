@@ -14,7 +14,6 @@ import './index.css';
 import LoaderPage from "./pages/_auth/forms/LoaderPage";
 
 
-
 function App() {
   return (
     <main className="flex bg-gray-700 flex-1 h-screen">
@@ -23,8 +22,8 @@ function App() {
       <Route element={<AuthLayout />}>
 
         {/* <Route path="/Employee sign-up" element={<EmployeeSignup />} /> */}
-        <Route path="/Duniya" element={<LandingPage />} />
-        <Route path="/Loading" element={<LoaderPage />} />
+        <Route  path="/Duniya" element={<LandingPage />} />
+        <Route index path="/Loading" element={<LoaderPage />} />
 
       {/* Employee ........... */}
         <Route path="/Employee-sign-up" element={<EmployeeSignup />} />
@@ -49,7 +48,7 @@ function App() {
         <Route path="/update-profile/:id" element={<UpdateProfile />} />
         <Route path="/chat/:id/" element={<Chat />} />
         <Route path="/chats/:id/" element={<ChatSection />}/> */}
-        <Route index element={<Home/>} />
+        <Route  element={<Home/>} />
 
       </Route>
     </Routes>
