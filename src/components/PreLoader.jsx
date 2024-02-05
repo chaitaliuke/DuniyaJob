@@ -3,6 +3,7 @@ import { preLoaderAnim } from '../animations/'
 // import logo from '../../src/assets/dj-white.png'
 import "./preloader.css"
 
+
 const PreLoader = () => {
 
     useEffect(() => {
@@ -10,13 +11,13 @@ const PreLoader = () => {
     }, []);
     return ( 
     <>
-        <div className="preloader">
-            <div className=' sm:text-xs texts-container '>
-                <span > Find  </span> 
-                <span > the  </span> 
-                <span > perfect  </span> 
-                <span > jobs  </span> 
-                <span > here  </span> 
+        <div className="preloader ">
+            <div className=' space-x-3 texts-container '>
+                <span > FIND  </span> 
+                <span > THE </span> 
+                <span > PERFECT  </span> 
+                <span > JOBS  </span> 
+                <span > HERE  </span> 
                 <span > ....  </span>     
             </div>
         </div> 

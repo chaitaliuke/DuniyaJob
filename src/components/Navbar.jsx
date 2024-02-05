@@ -16,6 +16,7 @@ import MailIcon from "@mui/icons-material/Mail";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import MoreIcon from "@mui/icons-material/MoreVert";
 import { useNavigate } from "react-router-dom";
+import logo from "../assets/dj-white.png";
 
 const Search = styled("div")(({ theme }) => ({
   position: "relative",
@@ -163,6 +164,7 @@ export default function Navbar() {
           >
             <MenuIcon />
           </IconButton>
+          <img className=" h-20" src={logo} alt="image" />
           <Typography
             variant="h6"
             noWrap

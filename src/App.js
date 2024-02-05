@@ -23,7 +23,7 @@ function App() {
 
         {/* <Route path="/Employee sign-up" element={<EmployeeSignup />} /> */}
         <Route  path="/Duniya" element={<LandingPage />} />
-        <Route index path="/Loading" element={<LoaderPage />} />
+        <Route index path="/" element={<LoaderPage />} />
 
       {/* Employee ........... */}
         <Route path="/Employee-sign-up" element={<EmployeeSignup />} />
